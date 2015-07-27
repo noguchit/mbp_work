@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+TIME=`date +%F-%H%M%S`                   
+FILENAME="backuup-$TIME.tar.gz"      
+SRCDIR="/Users/Takuya/Desktop/work"                       
+DESDIR="/Users/Takuya/Dropbox/bk_work/"                  
+tar -cpzf $DESDIR/$FILENAME $SRCDIR  # Executing the command
